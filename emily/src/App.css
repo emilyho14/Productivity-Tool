@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color: #94cbdc;
+  font-family: Lexend;
+  margin: 0;
+}
+
+.banner-container {
+  background-color: #d484dc;
+  margin: 10px auto;
+  border-radius: 15px 15px 15px 15px;
+  width: 95%;
+}
+
+.about-container {
+  background-color: White;
+  width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.website-title {
+  padding: 15px;
+  color: White;
+  margin: 0;
+}
+
+.timer-container {
+  background:#fdfbaa;
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.timer-container h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
