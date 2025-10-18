@@ -17,13 +17,14 @@ function About() {
             </p>
             <ul>
               <li> Change the font to something more reader friendly. Here, I decided to use Lexend, which is a Sans Serif Font.</li>
+              <li> Countdown Timer + Progress Bar - For productivity time blocks</li>
             </ul>
 
             <p> Here's a list of things I hope to implement moving forwards:
             </p>
             <ul>
               <li>
-                Timer for productivity time blocks - customizable based on work duration, tasks at hand, etc.
+                Customize timer for preset options based on heavieness of task
               </li>
               <li>
                 To-do list that allows users to prioritize tasks
