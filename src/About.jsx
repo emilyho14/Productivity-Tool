@@ -33,7 +33,7 @@ function About() {
                 Thinking notepad for 'off-topic' thoughts to allow these types of thoughts to be re-visited at another time
               </li>
               <li>
-                Reward system for tasks to help with the lack of dopamine lots of people with ADHD may struggle with, myself included
+                Reward system to make tasks more enjoyable to finish as some may struggle with feeling the 'dopamine' with accomplishing tasks, myself included
               </li>
               <li>
                 Daily task list for routines! This can help reduce decision fatigue
