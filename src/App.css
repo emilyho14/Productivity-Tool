@@ -4,19 +4,19 @@
 }
 
 html,body {
-  background-color: #99bfd5;
+  background-color: #C2D7A6;
   margin: 0;
 }
 
 .banner-container {
-  background-color: #47748b;
+  background-color: #C3544B;
   margin: 10px auto;
   border-radius: 15px 15px 15px 15px;
   width: 95%;
 }
 
 .about-container {
-  background-color: #cae0ec;
+  background-color: #F3F4F2;
   width: 95%;
   margin: 10px auto;
   padding: 10px;
@@ -25,12 +25,12 @@ html,body {
 
 .website-title {
   padding: 15px;
-  color: White;
+  color: #F3F4F2;
   margin: 0;
 }
 
 .timer-container {
-  background: #c5b0cd;
+  background: #88A66F;
   width: 95%;
   margin: 10px auto;
   border-radius: 15px;
@@ -72,11 +72,19 @@ html,body {
 }
 
 .start-button {
-  background-color: #f5f5f5;
+  background-color: #A7C47D,
+}
+
+.start-button:hover {
+  background-color: #7D9368; /* Ceremonial Matcha (darker hover) */
 }
 
 .reset-button {
-  background-color: #f5f5f5;
+  background-color: #A7C47D,
+}
+
+.reset-button:hover {
+  background-color: #7D9368; /* Ceremonial Matcha (darker hover) */
 }
 
 .progress-bar {
@@ -91,7 +99,8 @@ html,body {
 
 .progress-bar-fill {
   height: 100%;
-  background: #27456c;
+  /* background: #D96C75; */
+  background: #E2787E;
   transition: width 0.1s linear;
 }
 
