@@ -30,13 +30,13 @@ function About() {
                 To-do list that allows users to prioritize tasks
               </li>
               <li>
-                Thinking notepad for 'off-topic' thoughts to allow these types of thoughts to be re-visited at another time
+                Thinking notepad for any random thoughts to come back to after the productivity session.
               </li>
               <li>
                 Reward system to make tasks more enjoyable to finish as some may struggle with feeling the 'dopamine' with accomplishing tasks, myself included
               </li>
               <li>
-                Daily task list for routines! This can help reduce decision fatigue
+                Daily task list for routines!
               </li>
               <li>
                 Things I have learned throughout the process. This has been something I have been needing for a long time so I am excited to learn so much more about implementing an actually useful project for myself that may reach an audience one day
