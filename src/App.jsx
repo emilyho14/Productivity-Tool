@@ -3,6 +3,7 @@ import './App.css'
 import "@fontsource/lexend"
 import About from './About'
 import ProgressBarTimer from './ProgressBarTimer'
+import TimePassed from './TimePassed'
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
       </div>
       
       <div>
+        <TimePassed />
         <ProgressBarTimer />
       </div>
     </>
