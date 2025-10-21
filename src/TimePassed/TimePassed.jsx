@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-function TimePassed() {
+export default function TimePassed() {
     const [startTime, setStartTime] = useState(null);
     const [elapsed, setElapsed] = useState(0);
 
@@ -39,3 +39,4 @@ function TimePassed() {
         </div>
     )
 };
+
