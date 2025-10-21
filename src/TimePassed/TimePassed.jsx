@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-export default function TimePassed() {
+function TimePassed() {
     const [startTime, setStartTime] = useState(null);
     const [elapsed, setElapsed] = useState(0);
 
@@ -11,7 +11,7 @@ export default function TimePassed() {
                 setElapsed(Math.floor((Date.now() - startTime) / 1000));
             }, 1000);
         }
-        return () => clearInterval(intercal);
+        return () => clearInterval(interval);
     }, [startTime]);
 
     const handleStart = () => {
@@ -24,11 +24,11 @@ export default function TimePassed() {
         const minutes = Math.floor((seconds  % 3600)/ 60);
         const secs = seconds % 60;
 
-        return `${hours > 0 ? hours + "hours " : ""}${minutes > 0 ? minutes + "minutes " : ""}${secs} seconds`;
+        return `${hours > 0 ? hours + "hours, " : ""}${minutes > 0 ? minutes + " minutes, " : ""}${secs} seconds`;
     }
 
     return (
-        <div>
+        <div className="time-passed-container">
             <h2> Time Elapsed</h2>
             <p> {formatTime(elapsed)} </p>
             <button
@@ -40,3 +40,4 @@ export default function TimePassed() {
     )
 };
 
+export default TimePassed;
