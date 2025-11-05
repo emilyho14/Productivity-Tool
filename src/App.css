@@ -4,23 +4,30 @@
 }
 
 html,body {
-  background-color: #C2D7A6;
   margin: 0;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('./assets/images/cloud_background.png');
+  background-repeat: repeat;
+  background-size: auto;
+  filter: blur(3px);
+  z-index: -1;
+}
+
 .banner-container {
-  background-color: #C3544B;
-  margin: 10px auto;
-  border-radius: 15px 15px 15px 15px;
-  width: 95%;
+  background-color: #8096AD;
 }
 
 .about-container {
-  background-color: #F3F4F2;
+  background-color: #E7A872;
   width: 95%;
   margin: 10px auto;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .website-title {
@@ -30,7 +37,7 @@ html,body {
 }
 
 .time-passed-container {
-  background: #88A66F;
+  background: #D59B95;
   width: 95%;
   margin: 10px auto;
   border-radius: 15px;
@@ -39,7 +46,7 @@ html,body {
 }
 
 .timer-container {
-  background: #88A66F;
+  background: #D59B95;
   width: 95%;
   margin: 10px auto;
   border-radius: 15px;
@@ -55,15 +62,14 @@ html,body {
 .timer-container input {
   padding: 8px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   font-size: 14px;
-  width: 10%;
 }
 
 .timer-controls {
   display: flex;
   gap: 12px;
-  align-items: center;
+  align-items:center;
   margin-top: 12px;
 }
 
@@ -71,7 +77,6 @@ html,body {
   border-radius: 8px;
   width: 10%;
   font-size: 14px;
-  width: 10%
 }
 
 .timer-controls button {
@@ -81,20 +86,12 @@ html,body {
   cursor: pointer;
 }
 
-.start-button {
-  background-color: #A7C47D,
-}
-
 .start-button:hover {
-  background-color: #7D9368; /* Ceremonial Matcha (darker hover) */
-}
-
-.reset-button {
-  background-color: #A7C47D,
+  background-color: #CB7C73; /* Ceremonial Matcha (darker hover) */
 }
 
 .reset-button:hover {
-  background-color: #7D9368; /* Ceremonial Matcha (darker hover) */
+  background-color: #CB7C73; /* Ceremonial Matcha (darker hover) */
 }
 
 .progress-bar {
@@ -109,8 +106,7 @@ html,body {
 
 .progress-bar-fill {
   height: 100%;
-  /* background: #D96C75; */
-  background: #E2787E;
+  background: #CB7C73;
   transition: width 0.1s linear;
 }
 
@@ -120,4 +116,8 @@ html,body {
   font-variant-numeric: tabular-nums;
   margin-top: 8px;
   font-size: 14px;
+}
+
+.cloud-container {
+  background-image: url('./assets/images/cloud_background.png')
 }
