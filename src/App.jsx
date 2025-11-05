@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import "@fontsource/lexend"
-import About from './About'
-import ProgressBarTimer from './ProgressBarTimer'
+import About from './components/About/About'
+import ProgressBarTimer from './components/ProgressBar/ProgressBarTimer'
 
 function App() {
   return(
@@ -10,9 +10,7 @@ function App() {
       <div className="banner-container">
         <h1 className="website-title">Emily's Website!</h1>
       </div>
-
       <About/>
-
       <div>
         <ProgressBarTimer />
       </div>
