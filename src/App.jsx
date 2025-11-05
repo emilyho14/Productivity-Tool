@@ -3,12 +3,13 @@ import './App.css'
 import "@fontsource/lexend"
 import About from './components/About/About'
 import ProgressBarTimer from './components/ProgressBar/ProgressBarTimer'
+import Header from './components/Header/Header'
 
 function App() {
   return(
     <div className="app-container">
-      <div className="banner-container">
-        <h1 className="website-title">Emily's Website!</h1>
+      <div className="banner-container"> 
+        <Header />
       </div>
       <About/>
       <div>

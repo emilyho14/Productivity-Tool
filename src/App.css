@@ -34,6 +34,8 @@ body::before {
   padding: 15px;
   color: #F3F4F2;
   margin: 0;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 .time-passed-container {
@@ -120,4 +122,40 @@ body::before {
 
 .cloud-container {
   background-image: url('./assets/images/cloud_background.png')
+}
+
+.header {
+  padding: 15px 20px;
+  background-color: #3383C7
+  ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-heart {
+  height: 50px;
+  transition: height 0.3s ease;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+  font-size: 25px;
+  
+}
+
+.header-right a {
+  color: #ABC13A;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  color: white;
 }
