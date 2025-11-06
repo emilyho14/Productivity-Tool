@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-left">
-        <Link to="/">
+        <Link to="/Productivity-Tool">
           <img src={alien} className="header-icon" alt="Alien logo" />
         </Link>
 

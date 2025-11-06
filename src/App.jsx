@@ -16,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/Productivity-Tool" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/progress" element={<ProgressBarTimer />} /> */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
