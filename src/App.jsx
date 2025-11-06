@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import './App.css'
-import "@fontsource/lexend"
 import About from './components/About/About'
 import ProgressBarTimer from './components/ProgressBar/ProgressBarTimer'
 import Header from './components/Header/Header'

@@ -60,7 +60,7 @@ function ProgressBarTimer() {
   return (
     <div className="timer-container">
       <div className="timer-controls">
-        <h2> Timer! </h2>
+        <h2 className="timer-title"> Timer! </h2>
         <input
           type="number"
           value={hours}
