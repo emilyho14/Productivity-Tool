@@ -32,16 +32,68 @@ body::before {
   z-index: -1;
 }
 
-.banner-container {
-  background-color: #8096AD;
+.header {
+  font-family: 'ToyStoryFont';
+  padding: 15px 20px;
+  background-color: #3383C7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-icon {
+  height: 75px;
+  transition: height 0.3s ease;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-right {
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  
+}
+
+.header-right a {
+  color: #ABC13A;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  color: white;
 }
 
 .about-container {
-  background-color: #E7A872;
-  width: 95%;
+  background-color: #ffe900;
+  width: 97%;
   margin: 10px auto;
   padding: 10px;
   border-radius: 15px;
+}
+
+.hover-illini {
+  position: relative;
+  cursor: pointer;
+  text-decoration: underline; 
+  color: #E87722;
+}
+
+.hover-illini img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  display: none;
+}
+
+.hover-illini:hover img {
+  display: block;
 }
 
 .website-title {
@@ -52,6 +104,18 @@ body::before {
   text-decoration: none;
 }
 
+.about-me-container {
+  background-color: #4472af;
+  color: white;
+  font-size: 20px;
+  width: 97%;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+
+
 .timer-title {
   font-family: 'ToyStoryBodyFont';
   color: white;
@@ -60,7 +124,7 @@ body::before {
 .timer-container {
   background: #ABC13A;
   color: #F3F4F2;
-  width: 95%;
+  width: 97%;
   margin: 10px auto;
   border-radius: 15px;
   padding: 10px;
@@ -134,38 +198,3 @@ body::before {
   font-size: 14px;
 }
 
-.header {
-  font-family: 'ToyStoryFont';
-  padding: 15px 20px;
-  background-color: #3383C7;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-icon {
-  height: 75px;
-  transition: height 0.3s ease;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.header-right {
-  display: flex;
-  gap: 40px;
-  font-size: 25px;
-  
-}
-
-.header-right a {
-  color: #ABC13A;
-  text-decoration: none;
-}
-
-.header-right a:hover {
-  color: white;
-}

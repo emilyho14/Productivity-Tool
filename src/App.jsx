@@ -1,7 +1,10 @@
-import './App.css'
-import About from './components/About/About'
-import ProgressBarTimer from './components/ProgressBar/ProgressBarTimer'
-import Header from './components/Header/Header'
+import './App.css';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import ProgressBarTimer from './components/ProgressBar/ProgressBarTimer';
+import Header from './components/Header/Header';
+import Contact from './components/Contact/Contact';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return(
@@ -9,10 +12,13 @@ function App() {
       <div className="banner-container"> 
         <Header />
       </div>
-      <About/>
-      <div>
-        <ProgressBarTimer />
-      </div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/progress" element={<ProgressBarTimer />} /> */}
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
     </div>
   )
