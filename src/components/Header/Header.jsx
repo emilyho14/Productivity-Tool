@@ -35,7 +35,7 @@ function Header() {
         </Link>
 
         <nav>
-          <Link to="/" className="website-title">Emily's Website!</Link>
+          <Link to="/Productivity-Tool" className="website-title">Emily's Website!</Link>
         </nav>
       </div>
 
