@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({mode}) => ({
   plugins: [react()],
-  base: mode === 'production' ? '/Productivity-Tool' : '/',
+  base: '/Productivity-Tool',
+  // base: mode === 'production' ? '/Productivity-Tool' : '/',
 }))
