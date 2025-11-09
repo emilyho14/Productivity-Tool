@@ -49,13 +49,13 @@ body::before {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 0px;
 }
 
 .header-right {
   display: flex;
-  gap: 40px;
-  font-size: 25px;
+  gap: 20px;
+  font-size: 30px;
   
 }
 
@@ -145,7 +145,7 @@ body::before {
 
 .timer-controls {
   display: flex;
-  gap: 12px;
+  gap: 20px;
   align-items:center;
   margin-top: 12px;
 }
@@ -214,6 +214,7 @@ body::before {
   margin: 10px auto;
   padding: 10px;
   border-radius: 15px;
+  font-size: 20px;
 }
 
 .productivity-tools-description-container {
@@ -223,7 +224,7 @@ body::before {
   margin: 10px auto;
   padding: 10px;
   border-radius: 15px;
-  font-size: 2.5vw;
+  font-size: 20px;
 }
 
 .carousel-container {
@@ -239,4 +240,22 @@ body::before {
   height: 220px;
   object-fit: cover;
   display: block;
+}
+
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 2rem;      /* icon size */
+  margin-top: 10px;
+}
+
+.contact-icons a {
+  color: #3383C7;
+  transition: transform 0.2s ease;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.3);
 }

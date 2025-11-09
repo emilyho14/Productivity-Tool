@@ -16,7 +16,7 @@ function Header() {
 
       <nav className="header-right">
         <Link to="/about">About Me!</Link>
-        <Link to="/productivity-tools">Productivity Tools</Link>
+        <Link to="/productivity-tools">Tools</Link>
         <Link to="/progress">Learnings</Link>
         <Link to="/contact">Contact</Link>
       </nav>
