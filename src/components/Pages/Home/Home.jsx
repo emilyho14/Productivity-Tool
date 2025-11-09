@@ -1,5 +1,5 @@
 import React from 'react';
-import ProgressBarTimer from '../ProgressBar/ProgressBarTimer';
+import Carousel from '../../Carousel/Carousel'
 
 function Home() {
     return (
@@ -46,7 +46,7 @@ function Home() {
                 </ul>
             </div>
             </div>
-            <ProgressBarTimer />
+            <Carousel />
         </div>
     )
 }

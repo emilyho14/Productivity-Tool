@@ -11,9 +11,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.4.3",
+    "@coreui/react": "^5.9.1",
+    "@emailjs/browser": "^4.4.1",
     "@fontsource/lexend": "^5.2.11",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-pdf": "^10.2.0",
     "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
