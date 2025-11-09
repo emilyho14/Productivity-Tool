@@ -225,3 +225,18 @@ body::before {
   border-radius: 15px;
   font-size: 2.5vw;
 }
+
+.carousel-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
