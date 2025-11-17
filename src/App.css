@@ -32,6 +32,23 @@ body::before {
   z-index: -1;
 }
 
+@media (max-width: 1100px) {
+  .header {
+    flex-direction: column;    /* stack left + right vertically */
+    align-items: flex-start;   /* or center if you prefer */
+    gap: 10px;
+  }
+
+  .header-right {
+    font-size: 22px;           /* slightly smaller on mobile */
+    flex-wrap: wrap;           /* let links wrap to new line */
+  }
+
+  .header-icon {
+    height: 60px;              /* shrink icon a bit on small screens */
+  }
+}
+
 .header {
   font-family: 'ToyStoryFont';
   padding: 15px 20px;
@@ -56,7 +73,7 @@ body::before {
   display: flex;
   gap: 20px;
   font-size: 30px;
-  
+  flex-wrap: wrap;
 }
 
 .header-right a {
@@ -233,6 +250,7 @@ body::before {
   margin: 20px auto;
   border-radius: 10px;
   overflow: hidden;
+  border: 2px solid white
 }
 
 .carousel-image {
@@ -241,7 +259,6 @@ body::before {
   object-fit: cover;
   display: block;
 }
-
 
 .contact-icons {
   display: flex;
